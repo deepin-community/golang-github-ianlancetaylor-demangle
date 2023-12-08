@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-ianlancetaylor-demangle (0.0~git20200824.28f6c0f-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 29 Nov 2022 17:52:42 +0000
+
+golang-github-ianlancetaylor-demangle (0.0~git20200824.28f6c0f-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + golang-github-ianlancetaylor-demangle-dev: Add Multi-Arch: foreign.
+
+  [ Shengjing Zhu ]
+  * Update uscan watch file to track head version
+  * New upstream version 0.0~git20200824.28f6c0f
+  * Update debhelper-compat to 13
+  * Update Section to golang
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Add Rules-Requires-Root
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 26 Nov 2020 02:23:08 +0800
+
+golang-github-ianlancetaylor-demangle (0.0~git20181102.5e5cf60-1) unstable; urgency=medium
+
+  * Initial release (Closes: #920781)
+
+ -- Stephen Gelman <ssgelm@debian.org>  Tue, 29 Jan 2019 00:23:09 -0600
